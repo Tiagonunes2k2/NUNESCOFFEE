@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Formulário</title>
+    <meta name="description" content="Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    </head>
+    <body>
+
+        <nav>
+            <span class="logo"><a href="index.html">NunesCoffee</a></span>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="receitas.html">Receitas</a></li>
+                <li><a href="novidades.html">Novidades</a></li>
+                <li><a href="formulario.html">Formulário</a></li>
+            </ul>
+            <img class="git-img" src="https://cdn.icon-icons.com/icons2/2429/PNG/512/github_logo_icon_147285.png">
+            <a href="https://github.com/session" class="github">GitHub</a>
+        </nav>
+
+        <main>
+            
+            <form>
+            <fieldset>
+            <div class="sub-titulo">
+            <h1 id="titulo-formulario">Cadastro dos clientes</h1>
+            <p id="subtitulo-formulario">Complete as suas informações</p>
+            <br>
+            </div>
+            </fieldset>
+            </form>
+            
+            <form>
+                <fieldset class="grupo-formulario">
+                    <div class="campo-formulario">
+                        <label for="nome" class="nome-formulario"><Strong>Nome</Strong></label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="campo-formulario">
+                        <label for="sobrenome" class="nome-formulario"><strong>Sobrenome</strong></label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
+                    </div>
+                </fieldset>
+    
+                <div class="campo-formulario">
+                    <label for="email" class="nome-formulario"><strong>Email</strong></label>
+                    <input type="email" nome="email" id="email" required>
+                </div>
+    
+                <div class="campo-formulario">
+                    <label class="escolha-forms"><strong>De qual lado você desenvolve?</strong></label>
+                    <label for="">
+                        <input type="radio" name="devweb" id="frontend">Front-end
+                    </label>
+                    <label for="">
+                        <input type="radio" name="devweb" id="backend">Back-end
+                    </label>
+                    <label for="">
+                        <input type="radio" name="devweb" id="fullstack">Fullstack
+                    </label>
+                </div>
+    
+                <div class="campo-formulario">
+                    <label for="senioridade"  class="selecionar-form"><strong>Senioridade</strong></label>
+                    <select name="senioridade" id="senioridade">
+                        <option selected disabled value="">Selecione</option>
+                        <option value="">Junior</option>
+                        <option value="">Pleno</option>
+                        <option value="">Senior</option>
+                    </select>
+                </div>
+    
+                <fieldset class="grupo-formulario">
+                    <div id="checkbox-formulario">
+                        <label for=""><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
+                        <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                        <label for="tecnologia1">HTML</label>
+                        <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                        <label for="tecnologia2">CSS</label>
+                        <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                        <label for="tecnologia3">JavaScript</label>
+                        <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
+                        <label for="tecnologia4">PHP</label>
+                        <input type="checkbox" id="tecnologia5" name="tecnologia6" value="C#">
+                        <label for="tecnologia5">C#</label>
+                        <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Python">
+                        <label for="tecnologia7">Python</label>
+                        <input type="checkbox" id="tecnologia8" name="tecnologia8" value="Java">
+                        <label for="tecnologia8">Java</label>
+                    </div>
+                </fieldset>
+    
+                <div class="caixa-texto">
+                    <br>
+                    <label class="texto-experiencia"><Strong>Conte um pouco da sua experiência:</Strong></label>
+                    <textarea name="experiencia" id="experiencia" style="width: 26em;"" rows="6"></textarea>
+                </div>
+    
+                <button class="botao-formulario" type="submit">Concluído</button>
+    
+            </form>
+
+
+        </main>
+        <footer>
+            <p class="footer-copy">Copyright &lt;CODEFEE/&gt; 2024</p>
+            <p class="footer-autor">Feito com muito ❤ e café por Tiago Nunes</p>
+        </footer>
+    </body>      
+</html>
